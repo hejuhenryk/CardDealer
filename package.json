@@ -1,0 +1,23 @@
+{
+  "name": "deck-of-cards",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve *.html --no-autoinstall",
+    "build": "rm -rf docs; npx parcel build index.html  --out-dir docs"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "@types/styled-components": "^4.4.3",
+    "parcel-bundler": "1.12.4",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "components": "^0.1.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "s": "^1.0.0",
+    "styled-components": "^5.0.1"
+  }
+}
